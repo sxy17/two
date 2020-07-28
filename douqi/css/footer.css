@@ -1,0 +1,71 @@
+.footer{
+	width: 100%;
+	height: 273px;
+}
+.footer .footerup{
+	width: 100%;
+	height: 223px;
+	background: rgb(43,43,43);
+}
+.footer .footerdown{
+	width: 100%;
+	height: 50px;
+	background: rgb(31,31,31);
+	text-align: center;
+	line-height: 50px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: rgb(192,192,192);
+}
+.footer .footerdown:hover{
+	color: #5d767d;
+}
+.footer .footerup .footerh{
+	width: 960px;
+	height: 200px;
+	margin: 0 auto;
+}
+.footer>.footerup>.footerh>img{
+	width: 204px;
+	height: 80px;
+	padding-top: 55px;
+}
+.footer>.footerup>.footerh>.fringt{
+	width: 660px;
+    height: 200px;
+    float: right;
+}
+.fringt>ul{
+	margin-top: 30px;
+	width: 80px;
+	float: left;
+	margin-right: 50px;
+}
+.fringt>ul:nth-of-type(5){
+	margin-right: opx;
+}
+.fringt>ul>li{
+	margin-bottom: 10px;
+	font-size: 12px;
+	text-align: center;
+}
+.fringt>ul>li>a{
+	text-decoration: none;
+	color: rgb(192,192,192);
+}
+.fringt>ul>li>.bt{
+	font-size: 16px;
+}
+.fringt>ul>.bn{
+	margin-top: 25px;
+}
+.ban{
+	width: 100%;
+    text-align: center;
+    height: 22px;
+    display: inline-block;
+    margin-top: 12px;
+    font-family: "微软雅黑";
+	font-size: 12px;
+	color: rgb(192,192,192);
+}

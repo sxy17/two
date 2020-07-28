@@ -1,0 +1,196 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.head{
+	width: 100%;
+	height: 100px;
+	position:relative;
+	z-index: 5;
+}
+.head .nav{
+	width: 1053.6px;
+	height: 100px;
+	margin: 0px auto;
+}
+.head .nav .logo{
+	float: left;
+	margin-right: 10px;
+}
+.head .nav .logo img{
+	width: 211px;
+	height: 89px;
+	margin-top: 5px;
+	
+}
+.nav .nav_right{
+	width: 583px;
+	height: 100px;
+	float: left;
+	margin-right: 20px;
+}
+.nav .nav_right>ul{
+	width: 583px;
+	height: 100px;
+}
+.nav .nav_right>ul>li{
+    float: left;
+    width: 73.6px;
+    height: 36px;
+    margin-right: 16px;
+    line-height: 36px;
+    margin-top: 43px;
+    text-align: center;
+}
+.nav .nav_right ul>li>a{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	font-size: 14px;
+}
+.nav .nav_right>ul>li:nth-of-type(1){
+	margin-left: 42px;
+}
+.nav .nav_right>ul>li:nth-of-type(6){
+	border-radius: 4px;
+	background: rgb(29,174,42);
+}
+.nav .nav_right>ul>li:nth-of-type(6){
+	width: 80px;
+	margin-right: 0px;
+}
+.nav .nav_right>ul>li>.co{
+	color: white;
+}
+.nav .nav_right>ul>li:hover>a{
+	color: white;
+}
+.nav_right ul>li>.xiala{
+	background: white;
+	display: none;
+	padding-top: 4px;
+}
+.nav_right ul>li:hover>.xiala{
+	display: block;
+}
+.nav_right ul>li>.xiala>li:hover{
+	border-radius: 4px;
+	background: rgb(29,174,42);
+	
+}
+.nav_right ul>li>.xiala>li:hover>a{
+	color: white;
+}
+.nav_right ul>li>.xiala>li{
+	    height: 30px;
+	    line-height: 30px;
+	    font-size: 14px;
+}
+.nav_right ul>li>.wh{
+	width: 95px;
+}
+.nav .sou{
+	width: 210px;
+	height: 100px;
+	float: left;
+}
+.nav .sou>input{
+	width: 148px;
+	height: 26px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	margin-top: 48px;
+}
+.nav .sou>img{
+	position: relative;
+	top: 10px;
+}
+.head_right{
+	width: 64px;
+    height: 100px;
+    float: right;
+    margin-top: -100px;
+}
+.head_right span{
+	font-size: 10px;
+	
+}
+.head span:nth-of-type(1){
+	font-weight: bold;
+}
+.section1{
+	width: 100%;
+    height: 755px;
+	background: url(../img/tou.jpg) no-repeat center;
+}
+.section1 .mon{
+    width: 960px;
+    height: 225px;
+    margin: 0 auto;
+    padding: 20px 0px 0px 0px;
+}
+.section1 .mon>p{
+	color: white;
+    font-size: 20px;
+    margin-bottom: 10px
+}
+.section1 .mon>p>span{
+width: 55px;
+    height: 1px;
+    display: block;
+    background: white;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.section1 .mon>span{
+	font-size: 25px;
+    color: white;
+    margin-bottom: 30px;
+    display: block;
+}
+.section1 .mon>.gd{
+	font-size: 12px;
+	
+}
+.section1 ul{
+	margin: 0 auto;
+    width: 960px;
+    height: 508px;
+}
+.section1 ul>li{
+    width: 470px;
+    height: 249px;
+    margin-right: 5px;
+    float: left;
+    background: white;
+    margin-bottom: 5px;
+}
+.section1 ul>li:nth-of-type(2n){
+	margin-right: 0;
+}
+.section1 ul>li>h5{
+    font-size: 18px;
+    width: 310px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    margin: 20px auto;
+}
+.section1 ul>li>p{
+ 	width: 310px;
+    height: 36px;
+    margin: 0 auto;
+    line-height: 36px;
+}
+.section1 ul>li>p>span{
+	font-size: 12px;
+}
+.back{
+	width: 41px;
+	height:38px;
+	overflow: hidden;
+	position: fixed;
+	right: 40px;
+	bottom: 50px;
+}
